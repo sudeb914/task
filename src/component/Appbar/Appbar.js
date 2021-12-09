@@ -7,7 +7,7 @@ import './Appbar.css'
 const Appbar = () => {
     return (
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar  expand="lg">
   <Container>
     <Navbar.Brand href="#home">
         <img width='100' src="https://i.postimg.cc/d3Cw74tN/Biz-Connect-logo-png-1-Copy.png" alt="" />
@@ -15,7 +15,7 @@ const Appbar = () => {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
-      <HashLink className='text'  style={{marginRight:'10px'}} to='/home'>Platform</HashLink>
+      <HashLink className='text'  style={{marginRight:'10px'}} to=''>Platform</HashLink>
       <HashLink className='text'  style={{marginRight:'10px'}} to=''>Features</HashLink>
       <HashLink className='text' style={{marginRight:'10px'}} to=''>Events</HashLink>
       <HashLink className='text' style={{marginRight:'10px'}} to=''>Success Stories</HashLink>
