@@ -4,10 +4,15 @@
   font-size: 14px;
   margin: 0 auto;
   line-height: 30px;
+  cursor: pointer;
 }
 .icon-color{
     background: #558bc9;
     margin: 20px;
+    cursor: pointer;
+}
+.icon-color:hover{
+    background: #2d6fbb;
 }
 .footer-color{
     background: #558bc9;

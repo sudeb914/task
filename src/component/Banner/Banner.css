@@ -8,4 +8,9 @@
   letter-spacing: 0.18em;
   color: #ffffff;
   border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+.contact-btn:hover{
+  background: #ec6120;
 }
