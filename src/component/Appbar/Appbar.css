@@ -1,0 +1,19 @@
+.text {
+  text-decoration: none;
+  color: #000000;
+  margin: 7px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.subs-btn {
+  width: 200px;
+  background: #1e63a4;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  border: none;
+  padding: 7px 0;
+  margin-left: 5px;
+}
