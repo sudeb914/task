@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './component/Home/Home';
 import Appbar from './component/Appbar/Appbar';
+import OverNav from './component/OverNav/OverNav';
 
 
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <OverNav></OverNav>
      <Appbar></Appbar>
       <Switch>
           <Route path="/home">
