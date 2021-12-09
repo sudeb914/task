@@ -1,0 +1,15 @@
+.p-color {
+  color: #558bc9;
+  width: 300px;
+  font-size: 14px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.icon-color{
+    background: #558bc9;
+    margin: 20px;
+}
+.footer-color{
+    background: #558bc9;
+    margin-bottom: 0;
+}
