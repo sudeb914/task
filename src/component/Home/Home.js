@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Customize from '../Customize/Customize';
 import Expo from '../Expo/Expo';
-import Footer from '../Footer/Footer';
 import Gallery from '../Gallery/Gallery';
 import ProjectManage from '../ProjectManage/ProjectManage';
 import TradeShadow from '../TradeShadow/TradeShadow';
@@ -16,7 +15,7 @@ const Home = () => {
             <ProjectManage></ProjectManage>
             <Expo></Expo>
             <Gallery></Gallery>
-            <Footer></Footer>
+           
         </div>
     );
 };

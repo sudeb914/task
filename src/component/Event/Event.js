@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from '../Contact/Contact';
+import Question from '../Question/Question';
 import SalesTeam from '../SalesTeam/SalesTeam';
 
 const Event = () => {
@@ -7,6 +8,7 @@ const Event = () => {
         <div>
             <Contact></Contact>
             <SalesTeam></SalesTeam>
+            <Question></Question>
         </div>
     );
 };

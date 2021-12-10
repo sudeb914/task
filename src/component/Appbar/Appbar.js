@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './Appbar.css'
 
@@ -10,7 +11,9 @@ const Appbar = () => {
             <Navbar  expand="lg">
   <Container>
     <Navbar.Brand href="#home">
+        <Link to="/home">
         <img width='100' src="https://i.postimg.cc/d3Cw74tN/Biz-Connect-logo-png-1-Copy.png" alt="" />
+        </Link>
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
