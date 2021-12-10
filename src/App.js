@@ -8,6 +8,7 @@ import {
 import Home from './component/Home/Home';
 import Appbar from './component/Appbar/Appbar';
 import OverNav from './component/OverNav/OverNav';
+import Event from './component/Event/Event';
 
 
 
@@ -18,12 +19,16 @@ function App() {
         <OverNav></OverNav>
      <Appbar></Appbar>
       <Switch>
+      <Route exact path="/">
+            <Home />
+          </Route >
           <Route path="/home">
             <Home />
           </Route>
-          <Route exact path="/">
-            <Home />
+          <Route path="/event">
+            <Event />
           </Route>
+         
           <Route path="/home">
             <Home />
           </Route>

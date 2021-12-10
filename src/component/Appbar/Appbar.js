@@ -17,7 +17,7 @@ const Appbar = () => {
       <Nav className="ms-auto">
       <HashLink className='text'  style={{marginRight:'10px'}} to=''>Platform</HashLink>
       <HashLink className='text'  style={{marginRight:'10px'}} to=''>Features</HashLink>
-      <HashLink className='text' style={{marginRight:'10px'}} to=''>Events</HashLink>
+      <HashLink className='text' style={{marginRight:'10px'}} to='/event'>Events</HashLink>
       <HashLink className='text' style={{marginRight:'10px'}} to=''>Success Stories</HashLink>
       <HashLink className='text' style={{marginRight:'10px'}} to=''>Pricing</HashLink>
       <HashLink className='text' style={{marginRight:'10px'}} to=''>Company</HashLink>

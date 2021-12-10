@@ -1,0 +1,10 @@
+.icon-color{
+    background: #558bc9;
+    margin: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+form input,textarea{
+    width: 350px;
+    padding: 2px 12px;
+}
